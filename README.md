@@ -1,12 +1,16 @@
-# React + Vite
+# chatbot-project
+A bot that give answer to simple questions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Chat-bot project A simple rule-based chatbot built with React + Vite that responds to greetings and can tell you the current date, flip a coin and roll a dice. Built to practice conditional logic, event handling, and component state in React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Features
+👋 Responds to greetings (hi, hello, hey, etc.)
+📅 Tells you the current date on request, flip a coin and roll dice
+💬 Simple chat-style UI (message input + response bubbles)
+⚡ Instant rule-based responses (no external AI API)
+📱 Responsive design
+Tech Stack
+React – component-based UI
+Vite – fast build tool & dev server
+HTML, CSS, JavaScript – structure, styling, and logic
+JavaScript Date object – for fetching current date
